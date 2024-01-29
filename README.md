@@ -1,4 +1,5 @@
 # Circus Of Plates
+Mini game in which player tries to collect 3 shapes of same color consecutively with avoiding some obstacles as speed and bombs.
 ## 1. Introduction
 In this project it is required to design and build a single-player game in which a clown has two stack of plates (generally collected shapes) and there is a random group of colored shapes that falls and the player tries to catch those shapes using the clown stacks (hands). The player gains a score unit (10 points) if he managed to collect three consecutive shapes by the same stack having the same color regardless to their shapes and thus these three shapes vanishes immediately.
 The game is made out of three levels (Easy, Amateur and Hard) and the difficulty is increasing gradually among them through increasing number of falling items, speed of movement of falling items and introducing bombs. The player losses immediately if he managed to collect more than 20 plates without forming any set of three shapes of same color (size of one stack exceeded 20 plates) or if he collected a bomb
@@ -19,7 +20,7 @@ The player is able to pause the game and can resume it again easily. The player 
 
 **2.1. UML (Class Diagram)**
 
-![plot]()
+![plot](https://github.com/omar24ibrahim/Circus_Of_Plates/blob/main/UMLs/CircusOfPlates.drawio.png)
 
 **2.2. Design Patterns**
 
